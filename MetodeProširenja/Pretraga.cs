@@ -29,7 +29,7 @@ namespace Vsite.CSharp
 
         public static IEnumerable<string> NađiSveIza(IEnumerable<string> riječi, string riječ)
         {
-            riječi.Where(r => r.CompareTo(riječ) > 0);
+            return riječi.Where(r => r.CompareTo(riječ) > 0);
            // throw new NotImplementedException();
         }
     }
