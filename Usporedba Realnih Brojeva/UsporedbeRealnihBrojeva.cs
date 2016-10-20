@@ -7,8 +7,6 @@ namespace Vsite.CSharp
         static void Main(string[] args)
         {
             double tri = 3.0;
-
-            
             if (JednakiSu((1.0 - 1.0 / tri), (2.0 / tri)))
                 Console.WriteLine("1 - 1/3 jednako je 2/3");
             else
